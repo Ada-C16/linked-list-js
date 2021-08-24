@@ -66,6 +66,7 @@ describe("LinkedList", () => {
             expect(list.search(3)).toEqual(false);
         });
     });
+
     describe("length", () => {
         it("will return zero for an empty list", () => {
             // Assert
@@ -83,6 +84,7 @@ describe("LinkedList", () => {
             expect(list.length()).toEqual(count);
         });
     });
+    
     describe("getAtIndex", () => {
         it("will return null if the index is outside the bounds of the list", () => {
             // Assert
