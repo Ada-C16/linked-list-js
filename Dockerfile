@@ -19,4 +19,14 @@ ADD package.json /app
 # Install dependencies
 RUN npm install
 
+# Add entire student fork (overwrites previously added pa$
+ARG SUBMISSION_SUBFOLDER
+ADD $SUBMISSION_SUBFOLDER /app
+
+# Overwrite files in student fork with upstream files
+ADD test.sh /app
+ADD package.json /app
+RUN npm install
+ADD test /app/test
+
 
