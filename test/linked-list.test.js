@@ -207,7 +207,7 @@ describe("LinkedList", () => {
         });
     });
 
-    describe.skip("Optional: getMiddleValue", () => {
+    describe("Optional: getMiddleValue", () => {
         it("finds the middle value of a list with odd length", () => {
             list.addFirst(3);
             list.addFirst(2);
