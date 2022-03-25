@@ -207,7 +207,7 @@ describe("LinkedList", () => {
         });
     });
 
-    describe.skip("Optional: getMiddleValue", () => {
+    describe("Optional: getMiddleValue", () => {
         it("finds the middle value of a list with odd length", () => {
             list.addFirst(3);
             list.addFirst(2);
@@ -229,7 +229,7 @@ describe("LinkedList", () => {
         });
     });
 
-    describe.skip("Optional: findNthFromEend", () => {
+    describe("Optional: findNthFromEend", () => {
         it("will return null if the index is outside the bounds of the list", () => {
             // Assert
             expect(list.findNthFromEnd(3)).toBeNull();
