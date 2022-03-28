@@ -249,7 +249,7 @@ describe("LinkedList", () => {
         });
     });
 
-    describe.skip("Optional: hasCycle", () => {
+    describe("Optional: hasCycle", () => {
         it("will return true when a cycle is present", () => {
             list.addFirst(1);
             list.addFirst(2);
