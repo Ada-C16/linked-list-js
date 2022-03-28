@@ -106,7 +106,7 @@ describe("LinkedList", () => {
         });
     });
 
-    describe.skip("addLast and getLast", () => {
+    describe("addLast and getLast", () => {
         it("will put new items to the rear of the list", () => {
             list.addLast(2);
             expect(list.length()).toEqual(1);
