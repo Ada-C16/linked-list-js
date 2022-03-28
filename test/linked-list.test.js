@@ -84,7 +84,7 @@ describe("LinkedList", () => {
             expect(list.length()).toEqual(count);
         });
     });
-    
+
     describe("getAtIndex", () => {
         it("will return null if the index is outside the bounds of the list", () => {
             // Assert
@@ -106,7 +106,7 @@ describe("LinkedList", () => {
         });
     });
 
-    describe.skip("addLast and getLast", () => {
+    describe("addLast and getLast", () => {
         it("will put new items to the rear of the list", () => {
             list.addLast(2);
             expect(list.length()).toEqual(1);
@@ -207,7 +207,7 @@ describe("LinkedList", () => {
         });
     });
 
-    describe.skip("Optional: getMiddleValue", () => {
+    describe("Optional: getMiddleValue", () => {
         it("finds the middle value of a list with odd length", () => {
             list.addFirst(3);
             list.addFirst(2);
@@ -229,7 +229,7 @@ describe("LinkedList", () => {
         });
     });
 
-    describe.skip("Optional: findNthFromEend", () => {
+    describe("Optional: findNthFromEend", () => {
         it("will return null if the index is outside the bounds of the list", () => {
             // Assert
             expect(list.findNthFromEnd(3)).toBeNull();
@@ -247,9 +247,9 @@ describe("LinkedList", () => {
             expect(list.findNthFromEnd(3)).toEqual(3);
             expect(list.findNthFromEnd(4)).toEqual(4);
         });
-    });    
+    });
 
-    describe.skip("Optional: hasCycle", () => {
+    describe("Optional: hasCycle", () => {
         it("will return true when a cycle is present", () => {
             list.addFirst(1);
             list.addFirst(2);
